@@ -80,7 +80,7 @@ class _QuixState extends State<Quix> {
         padding: EdgeInsets.symmetric(vertical: 15), // adjust as needed
       ),
       child: Text(
-        'False',
+        'False human',
         textAlign: TextAlign.center,
         style: TextStyle(
           fontSize: 20,
@@ -95,6 +95,7 @@ Expanded(
   child: Padding(
     padding: EdgeInsets.all(15.0),
     child: TextButton(
+
       onPressed: () {},
       style: TextButton.styleFrom(
         backgroundColor: Colors.green,
@@ -105,6 +106,7 @@ Expanded(
         textAlign: TextAlign.center,
         style: TextStyle(
           fontSize: 20,
+
           color: Colors.white,
         ),
       ),
